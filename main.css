@@ -27,7 +27,11 @@ ul {
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 0, 0);
     justify-content: center;
+    list-style: none;
+    position: relative;
 }
+
+
 
 .list__item{
     margin: 5px;
@@ -36,6 +40,7 @@ ul {
     border: 10px;
     border-width: 400px;
     border-radius: 5px;
+    height: 25px;
 }
 
 .wrapper{
@@ -48,10 +53,19 @@ ul {
     background-color: rgb(255, 255, 255);
     border-radius: 27px;
     width: 400px;
-    height: 30px;
+    height: 40px;
+}
+
+.delete__btn{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-right: 20px;
+    margin-top: 2px;
+    right: 0;
 }
 
 .btn {
+    background-color: rgb(2, 255, 213);
     border-radius: 27px;
-    height: 30px;
+    height: 40px;
 }
